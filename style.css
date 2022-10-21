@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color:beige;
+}
+.navbar {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.logo{
+  color:black;
+  background-color:burlywood;
+}
+.menu ul {
+  list-style-type: none;
+  /* display: inline; */
+}
+.menu ul li {
+  margin: 0 10px;
+  display: inline-block;
+}
+.hero {
+  /* width: 90%; */
+  /* display: flex; */
+  align-items:flex-start;
+  margin: 0 10px;
+}
+.hero .header {
+  width: 11rem;
+  margin-left: 4%;
+  margin-top: 10rem;
+  margin-bottom: 1rem;
+}
+.hero .link{
+  margin-left: 4%;
+  text-decoration: none;
+  padding: 3px 20px;
+  color: black;
+  background-color: burlywood;
+}
